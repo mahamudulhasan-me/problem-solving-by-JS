@@ -10,4 +10,4 @@ function reverseString(str) {
   return afterReverse;
 }
 const result = reverseString("hello world");
-console.log(result); // dlrow olleh
+console.log(result); //output: dlrow olleh

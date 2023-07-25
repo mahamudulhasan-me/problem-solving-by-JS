@@ -10,4 +10,4 @@ function sumPositiveNumbers(arr) {
 }
 
 const result = sumPositiveNumbers([2, -5, 10, -3, 7]);
-console.log(result); //19
+console.log(result); //output: 19
