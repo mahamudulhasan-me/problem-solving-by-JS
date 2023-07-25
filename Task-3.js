@@ -1,6 +1,6 @@
 // Task 3: Write a JavaScript program to find the most frequent element in an array and return it.
 
-// Example Input: [3, 5, 2, 5, 3, 3, 1, 4, 5, 2, 2, 8, 2, 2, 2, 2]
+// Example Input: [3, 5, 2, 5, 3, 3, 1, 4, 5] Example Output: 3
 
 const mostFrequentElement = (arr) => {
   let obj = {};
@@ -19,6 +19,6 @@ const mostFrequentElement = (arr) => {
   }
   return mostFrequent;
 };
-const arr = [3, 3, 3, 3, 3, 3, 3, 5, 5, 8, 7, 9, 4];
+const arr = [3, 5, 2, 5, 3, 3, 1, 4, 5];
 const result = mostFrequentElement(arr);
-console.log(result);
+console.log(result); //output: 3
